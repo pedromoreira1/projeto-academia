@@ -1,0 +1,327 @@
+*{
+    font-family: 'Roboto';
+    
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #910707;
+    border: 2px solid #630d0d;
+}
+
+.btn-primary:hover {
+    background-color: #e75151;
+    border-color: #e75151;
+}
+
+.msg {
+  background-color: #D4EDDA;
+  color: #155724;
+  border: 1px solid #C3E6CB;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+#info-container .already-joined-msg{
+  margin: 15px 0;
+  color: #ffffff;
+  background-color: #ff0000;
+  border: 1px solid #000000;
+  padding: 10px;
+  width: 275px;
+}
+
+#navbar img{
+    width: 40px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #ffffff
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #000000;
+}
+
+#navbar a:hover {
+    color: #ff0000;
+}
+
+#search-container {
+    background-image: url("../img/acad1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 390px;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  #search-container h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  
+  #search-container form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  /* trainings list */
+  #trainings-container {
+    padding: 40px;
+    
+  }
+  
+  #trainings-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  #trainings-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+  }
+  
+  #cards-container {
+    display: flex;
+  }
+  
+  #trainings-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+  }
+  
+  #trainings-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card .card-date {
+    font-size: 12px;
+    color: #CCC;
+  }
+  
+  .card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .card .card-treino {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .card-participants {
+    font-size: 14px;
+    color: #757575;
+  }
+  
+  
+  /* training create page */
+  #training-create-container {
+    padding: 30px
+  }
+  
+  #training-create-container label {
+    font-weight: bold;
+  }
+  
+  #training-create-container input,
+  #training-create-container select,
+  #training-create-container textarea {
+    font-size: 12px;
+  }
+
+  /* training page */
+  #image-container,
+  #info-container {
+    margin-top: 25px;
+  }
+
+  #image-container img {
+    border-radius: 10px;
+  }
+
+  #info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  #info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+  }
+
+  #info-container h3,
+  #treino-container h3 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #info-container {
+    background-color: #ffffff; /* Cor de fundo */
+    border: 1px solid #da3e3e; /* Borda */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 15px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+#info-container h3 {
+    color: #470303; /* Cor do título */
+}
+
+#info-container .training-segunda {
+    color: #d83a3a; /* Cor do texto */
+}
+#info-container .training-treino {
+  color: #d83a3a; /* Cor do texto */
+}
+#info-container .training-terca {
+  color: #d83a3a; /* Cor do texto */
+}
+#info-container .training-quarta {
+  color: #d83a3a; /* Cor do texto */
+}
+#info-container .training-quinta {
+  color: #d83a3a; /* Cor do texto */
+}
+#info-container .training-sexta {
+  color: #d83a3a; /* Cor do texto */
+}
+#info-container .training-sabado {
+  color: #d83a3a; /* Cor do texto */
+}
+
+  #info-container h3,
+  #segunda-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #info-container h3,
+  #terca-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #info-container h3,
+  #quarta-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #info-container h3,
+  #quinta-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #info-container h3,
+  #sexta-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #info-container h3,
+  #sabado-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #info-container ion-icon {
+    font-size: 20px;
+    color: #F2A340;
+    margin-right: 5px;
+  }
+
+  #info-container #training-submit {
+    margin: 20px 0;
+  }
+
+  #description-container {
+    margin-top: 15px;
+  }
+
+  /* Dashboard */
+  .dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .dashboard-trainings-container th{
+    width: 25%;
+
+  }
+
+  .dashboard-trainings-container form{
+    display: inline-block;
+  }
+
+  /* Edit page */
+
+  .img-preview{
+    width: 250px;
+    margin-top: 20px;
+  }
+  
+  /* footer */
+  footer {
+    text-align: center;
+    background-color: #ff0000ab;
+    color: #000000;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  li {
+    display: flex; /* Para usar flexbox */
+    align-items: center; /* Alinhar verticalmente */
+  }
+
+  /* Adicione margem direita ao ícone para separá-lo do texto */
+  ion-icon {
+    margin-right: 5px; /* Ajuste conforme necessário */
+  }
+
+  #items-list li ion-icon {
+    margin-right: 10px; /* Adiciona margem à direita do ícone */
+  }
+  #items-list li ion-icon {
+    margin-left: -40px; /* Adiciona margem à direita do ícone */
+  }
+  
